@@ -64,3 +64,41 @@ h1 {
   left : 20px;
   top : 70px;
 }
+
+label {
+  font : .8em "typewriter", sans-serif;
+}
+
+input, textarea {
+  font : .9em/1.5em "handwriting", sans-serif;
+
+  border : none;
+  padding : 0 10px;
+  margin : 0;
+  width: 240px;
+
+  background: none;
+}
+
+input:focus, textarea:focus {
+  background : rgba(0,0,0,.1);
+  border_radius : 5px;
+  outline : none;
+}
+
+input {
+  height: 2.5em; /* for IE */
+  vertical-align: middle; /*option for legacy IEs*/
+}
+
+textarea {
+  display : block;
+
+  padding: 10px;
+  margin: 10px 0 0 -10px;
+  width: 340px;
+  height: 360px;
+
+  resize: none;
+  overflow: auto;
+}

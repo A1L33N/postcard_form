@@ -1,0 +1,66 @@
+@font-face {
+  font-family : "handwriting";
+
+  src : url('fonts/journal.eot');
+  src : url('fonts/journal.eot?') format('eot'),
+        url('fonts/journal.woff') format('woff'),
+        url('fonts/journal.ttf') format('truetype');
+
+}
+
+@font-face {
+  font-family : "typewriter";
+
+  src : url('fonts/veteran_typewriter.eot');
+  src : url('fonts/veteran_typewriter.eot?') format('eot'),
+        url('fonts/veteran_typewriter.woff') format('woff'),
+        url('fonts/veteran_typewriter.ttf') format('truetype');
+}
+
+
+
+body {
+  font : 21px sans-serif;
+
+  padding : 2em;
+  margin : 0;
+
+  background : #222;
+}
+
+form {
+  position: relative;
+
+  width : 740px;
+  height : 498px;
+  margin : 0 auto;
+
+  background: #FFF url(../images/background.jpg);
+}
+
+
+h1 {
+  position : absolute;
+  left : 415px;
+  top : 185px;
+
+  font : 1em "typewriter", sans-serif;
+}
+
+#from {
+  position : absolute;
+  left : 398px;
+  top : 235px;
+}
+
+#reply {
+  position : absolute;
+  left : 390px;
+  top : 285px;
+}
+
+#message {
+  position : absolute;
+  left : 20px;
+  top : 70px;
+}
